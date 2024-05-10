@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor Clone</title>
+    <!--icon for title-->
+    <link rel="icon" href="images/icon image.png">
+     <!--GOOgle font link-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+     <!--Stylesheet adding-->
+     <link rel="stylesheet" href="style.css">
+     <!--Font awesome cdn Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Navbar-->
+<div class="navbar">
+
+    <div class="navbar__s1">
+        <img src="./images/navbar image.png">
+        <h1>Tripadvisor</h1>
+    </div>
+
+    <div class="navbar__s2">
+            <p class="discover">Discover</p>
+        <div class="discover__popup">
+            <p class="discover__popup-s1">Travellers Choices</p>
+            <p class="discover__popup-s1">Travel stories</p>
+        </div>
+            <p class="discover">Trips</p>
+            <p class="discover">Review</p>
+        <div class="review__popup">
+            <p class="review__popup-s1">Write a review</p>
+            <p class="review__popup-s1">Post photos</p>
+            <p class="review__popup-s1">Add a place</p>
+        </div>
+            <p class="discover">More</p>
+        <div class="more__popup">
+            <p class="more__popup-s1">Flights</p>
+            <p class="more__popup-s1">Travel Stories</p>
+        </div>
+    </div>
+
+<div class="navbar__s3">
+    <div class="navbar__globe">
+        <i class="fa-solid fa-globe"></i>
+        <p class="navbar__s3-p">|<p>
+        <p class="navbar__s3-p">INR</p>
+    </div>
+    <div class="navbar__signin">
+        <p>Sign in</p>
+    </div>
+</div>
+    
+</div>
+
+<!--Where section-->
+<div class="where">
+    <h1>Where to?</h1>
+</div>
+
+<!--categories-->
+<div class="categories">
+    <a class="categories-s1"href=""><p>Search All</p></a>
+    <a class="categories-s1"href=""><p>Hotels</p></a>
+    <a class="categories-s1"href=""><p>Things to do</p></a>
+    <a class="categories-s1"href=""><p>Restaurants</p></a>
+    <a class="categories-s1"href=""><p>Holiday Homes</p></a>
+</div>
+
+<!--searchbar-->
+<div class="search-container">
+    <div class="searchbar">
+        <i class="fa-solid fa-magnifying-glass" style="color: #0a0a0a;"></i>
+        <input class="search-input" placeholder="Places to go, things to do, hotels ...">
+    </div>
+<!--searchbar button-->
+    <div class="search-link">
+        <a  class="search-link__s1"href="">Search</a>
+    </div>
+</div>
+
+<!--section image one-->
+<div class="tour-image">
+    <img src="./images/tour image.png" alt="tour image">
+    <div class="tour-image__offer">
+        <p  class="offer-word">Powered by AI <span class="beta">BETA</span></p>
+        <h1 class="offer-word">Build a trip in minutes</h1>
+        <p  class="offer-word">Get a personalised itinerary just for you, guided by traveller tips and reviews</p>
+        <p  class="offer-word" id="ai">🌍<span class="ai">Start a trip with AI</span></p>
+    </div>
+
+</div>
+
+<!--section image two-->
+<div class="download-app__image">
+       <img src="./images/app image.jfif">
+    <div class="app-words">
+        <p class="words-s1">The both of you could use a trip</p>
+        <p class="words-s2">Plan the  holidays you deserve with our app</p>
+        <p class="words-s3" id="s3">Download the app</p>
+    </div>
+
+</div>
+
+<!--hotel section 1-->
+<div class="hotel-s1">
+    <h1>Stay Somewhere award-Winning</h1>
+    <p>2024's Travellers' Choice Awards Best of the Best Hotels</p>
+</div>
+
+<!--hotel image section 1-->
+<div class="hotel-image__s1">
+    <div class="image-with-text">
+        <img src="./images/image s1.jpg" alt="Image 1">
+        <div class="overlay-text">Top Hotels</div>
+    </div>
+    <div class="image-with-text">
+        <img src="./images/image s2.jpg" alt="Image 2">
+        <div class="overlay-text">All-inclusive Hotels</div>
+    </div>
+    <div class="image-with-text">
+        <img src="./images/image s3.jpg" alt="Image 3">
+        <div class="overlay-text">Family-Friendly Hotels</div>
+    </div>
+    <div class="image-with-text">
+        <img src="./images/image s4.jpg" alt="Image 4">
+        <div class="overlay-text">Luxary Hotels</div>
+    </div>
+</div>
+
+<!--hotel section 2-->
+<div class="hotel-s2">
+    <h1>You might like these</h1>
+    <p>More things to do in Foreign Places</p>
+</div>
+
+<!--hotel image section 2-->
+<div class="places">
+    <div class="places-card">
+        <img src="./images/v1.jpg">
+        <p>“Life is either a daring adventure or nothing at all.”</p>
+        <p>🟢🟢🟢🟢⚪ 4.0/5</p>
+        <p> from $199 for three adult. <del>$999</del></p>
+    </div>
+
+    <div class="places-card">
+        <img src="./images/v2.jpg">
+        <p>“Russia! Everything in you is open, desolate and level"</p>
+        <p>🟢🟢🟢⚪⚪ 3.0/5</p>
+        <p> from $1299 for two adult. <del>$4999</del></p>
+    </div>
+
+    <div class="places-card">
+        <img src="./images/v3.jpg">
+        <p>Exploring the wonders of Japan, one photo at a time</p>
+        <p>🟢🟢🟢⚪⚪ 3.0/5</p>
+        <p> from $1499 for four adult. <del>$2999</del></p>
+    </div>
+
+    <div class="places-card">
+        <img src="./images/v4.jpg">
+        <p>“America is the greatest engine of innovation."</p>
+        <p>🟢🟢🟢🟢🟢 5.0/5</p>
+        <p> from $5499 for three adult. <del>$9999</del></p>
+    </div>
+</div>
+
+<!--hotel section 3-->
+<div class="hotel-s3">
+    <h1>Asia's best culinary hotspots</h1>
+    <p>From izakayas in Japan to hawker centers in Singapore</p>
+</div>
+
+<!--hotel image section 3-->
+<div class="third-section-image">
+ <div class="box">
+    <img src="./images/asian-1.jpg" alt="Image 1">
+    <p>Hanoi, Vitenam</p>
+ </div>
+
+ <div class="box">
+    <img src="./images/asian-2.jpg" alt="Image 2">
+    <p>Bangkok, Thailand</p>
+ </div>
+
+ <div class="box">
+    <img src="./images/asian-3.jpg" alt="Image 3">
+    <P>Hong Kong, China</P>
+ </div>
+ 
+ <div class="box">
+    <img src="./images/asian-4.jpg" alt="Image 4">
+    <p>Hotel, Singapore</p>
+ </div>
+</div>
+
+<!--hotel section 4-->
+<div class="get-started-image">
+    <img src="./images/started image.jfif">
+ <div class="get-words">
+     <p class="started-s1">See Something you love?</p>
+     <p class="started-s2">And see all your saved travel ideas on a map</p>
+     <p class="started-s3" id="s4">Get Started</p>
+ </div>
+</div>
+
+<!--More to explore-->
+<div class="explore">
+    <p class="explore-para">More to explore</p>
+<div class="explore-image">
+ <div class="explore-item">
+    <img src="./images/explore 1.jpg" alt="image">
+    <p>6 Incredible places to visit near Phuket</p>
+ </div>
+
+ <div class="explore-item">
+    <img src="./images/explore 2.jpg" alt="image">
+    <p>17 Cool stays by the water for a once-in-a-lifetime trip</p>
+ </div>
+
+ <div class="explore-item">
+    <img src="./images/explore 3.jpg" alt="image">
+    <p>3 Perfect days in osaka</p>
+ </div>
+ 
+</div>
+</div>
+
+<!--hotel section 5-->
+<div class="fellow">
+    <h1>Top destinations for your next holiday</h1>
+    <p>Here's where your fellow travellers are headed</p>
+</div>
+
+<!--hotel image section 5-->
+<div class="fellow-image__s1">
+    <div class="fellow-with-text">
+        <img src="./images/fellow 1.jpg" alt="Image 1">
+        <div class="fellow-text">Tokyo,Japan</div>
+    </div>
+    <div class="fellow-with-text">
+        <img src="./images/fellow 2.jpg" alt="Image 2">
+        <div class="fellow-text">Hotel,Singapore</div>
+    </div>
+    <div class="fellow-with-text">
+        <img src="./images/fellow 3.jpg" alt="Image 3">
+        <div class="fellow-text">Hanoi, Vietnam</div>
+    </div>
+    <div class="fellow-with-text">
+        <img src="./images/fellow 4.jpg" alt="Image 4">
+        <div class="fellow-text">Seoul,South Korea</div>
+    </div>
+</div>
+
+<!--footer-top-->
+<div class="footer-top-image">
+    <img src="./images/footer-top-background.png" alt="tour image">
+    <div class="footer-image__offer">
+        <p  class="footer-word" id="one">TravellerS' Choice Awards Best of the Best</p>
+        <p  class="footer-word" id="two">Among our top 1% of places, stays, eats, and experiences-decided by you.</p>
+        <p  class="footer-word" id="three">See the winners</p>
+    </div>
+
+</div>
+
+
+<!-- footer  -->
+<div class="footer">
+    <div class="footer-box">
+        <div class="footer-box-one">
+            <div class="footer-size-one">
+                <h3>About Tripadvisor</h3>
+                <a href="javascript:void(0)">About Us</a>
+                <a href="javascript:void(0)">Press</a>
+                <a href="javascript:void(0)">Resources and Policies</a>
+                <a href="javascript:void(0)">Careers</a>
+                <a href="javascript:void(0)">Trust & Safety</a>
+                <a href="javascript:void(0)">Contact us</a>
+                <a href="javascript:void(0)">Accessibility Statement</a>
+            </div>
+            <div class="footer-size-two">
+                <h3>Explore</h3>
+                <a href="javascript:void(0)">Write a review</a>
+                <a href="javascript:void(0)">Add a Place</a>
+                <a href="javascript:void(0)">Join </a>
+                <a href="javascript:void(0)">Travellers' Choice</a>
+                <a href="javascript:void(0)">GreenLeaders</a>
+                <a href="javascript:void(0)">Help Centre</a>
+                <a href="javascript:void(0)">Travel Articles</a>
+            </div>
+            <div class="footer-size-three">
+                <h3>Do Business With Us</h3>
+                <a href="javascript:void(0)">Owners & DMO/CVB</a>
+                <a href="javascript:void(0)">Business Advantage</a>
+                <a href="javascript:void(0)">Sponsored Placements</a>
+                <a href="javascript:void(0)">Access our Content API</a>
+                <h3>Get The App</h3>
+                <a href="javascript:void(0)">iPhone App</a>
+                <a href="javascript:void(0)">Android App</a>
+            </div>
+            
+        </div>
+        <div class="footer-square">
+            <h3>Tripadvisor Sites</h3>
+            <a href="javascript:void(0)">Book tours and attraction tickets on Viator</a>
+        </div>
+    </div>
+    <div class="footer__two">
+        <div class="footer-links">
+            <div class="footer-links-section">
+                <img src="./images/icon image.png" alt="footerlogo">
+                <div>
+                    <h4>© 2024 Tripadvisor LLC All rights reserved.</h4>
+                    <ul>
+                        <a href="javascript:void(0)">Terms of Use</a>
+                        <a href="javascript:void(0)">Privacy and Cookies Statement</a>
+                        <a href="javascript:void(0)">Cookie consent</a>
+                        <a href="javascript:void(0)">Site Map</a> <br>
+                     <div class="links-top">
+                        <a href="javascript:void(0)">How the site works</a>
+                        <a href="javascript:void(0)">Contact us</a>
+                     </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-select">
+            <select name="" id="">
+                <option value="">₹ INR</option>
+                <option value="">$ Dollar</option>
+            </select>
+            <select name="" id="">
+                <option value="">India</option>
+                <option value="">USA</option>
+            </select>
+        </div>
+    </div>
+    <div class="footer__three">
+        <p>This is the version of our website addressed to speakers of English in India. If you are a resident of another country or region, please select <br> the appropriate version of Tripadvisor for your country or region in the drop-down menu. more</p>
+        <div class="social">
+            <i class="fa-brands fa-facebook fa-fw"></i>
+            <i class="fa-brands fa-x-twitter fa-fw"></i>
+            <i class="fa-brands fa-pinterest fa-fw"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
