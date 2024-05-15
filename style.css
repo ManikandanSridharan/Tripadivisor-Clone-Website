@@ -1497,6 +1497,9 @@ h3 {
         font-size: 30px;
     }
 
+
+
+    /*footer-top*/
     .footer-top-image {
 
         display: flex;
@@ -1505,7 +1508,6 @@ h3 {
 
     }
 
-    /*footer-top*/
     .footer-image__offer {
 
         display: flex;
@@ -1647,6 +1649,220 @@ h3 {
 
         width: 100%;
     }
+
+}
+
+@media screen and (max-width: 432px) {
+
+    /*navbar*/
+    .navbar__globe {
+        display: none;
+    }
+
+    /*categories*/
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* Center the container */
+    }
+
+    .categories .categories-s1 {
+        flex-basis: 28%;
+        padding: 5px;
+        display: flex;
+        /* Enable flexbox */
+        flex-direction: column;
+        /* Stack items vertically */
+        justify-content: flex-start;
+        /* Align items to the start of the container */
+        align-items: center;
+        /* Center items horizontally */
+    }
+
+    /*section image one*/
+    .tour-image {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .tour-image img {
+
+        width: 100%;
+        height: 423px;
+        object-fit: cover;
+
+    }
+
+    .offer-word {
+
+        font-size: 12px;
+        padding: 10px;
+
+    }
+
+    #headings-s1 .beta {
+
+        font-size: 10px;
+
+    }
+
+    #ai {
+        font-family: 'Trip Sans';
+        font-weight: 700;
+        text-decoration: none;
+        width: max-content;
+        padding: 2px;
+        border: none;
+        border-radius: 3%;
+        font-size: 17px;
+        /* use display means take only content width */
+    }
+
+    .tour-image {
+
+        position: relative;
+    }
+
+    .tour-image__offer {
+
+        position: absolute;
+        Top: 10%;
+    }
+
+    .tour-image__offer p {
+
+        font-size: 18px;
+        width: 100%;
+
+
+    }
+
+    .tour-image__offer h1 {
+
+        font-size: 20px;
+    }
+
+    /*section image two*/
+    .words-s3 {
+
+        display: none;
+    }
+
+    /*hotel image section 1*/
+    .image-with-text img {
+
+        width: 420px;
+        height: 400px;
+
+    }
+
+    /*hotel image section 2*/
+
+    .places-card img {
+
+        width: 420px;
+        height: 400px;
+    }
+
+    /*hotel image section 3*/
+
+    .box img {
+
+        width: 420px;
+        height: 400px;
+
+    }
+
+    .get-words #s4 {
+
+        display: none;
+    }
+
+    /*More to explore*/
+
+    .explore-item img {
+
+        width: 420px;
+        height: 300px;
+
+    }
+
+    /*hotel image section 5*/
+
+    .fellow-with-text img {
+
+        width: 420px;
+        height: 400px;
+
+    }
+
+    /*footer-top*/
+    .footer-top-image {
+
+        position: relative;
+        width: 100%;
+        height: 730px;
+        background-color: #FFF7E1;
+
+    }
+
+    #one {
+        font-family: 'Trip Sans';
+        font-weight: bold;
+        color: black;
+        padding: 0;
+        margin: 0;
+        line-height: 30px;
+        font-size: 18px;
+        /* Adjust font size as needed */
+        width: 100%;
+        /* Ensure text takes up the full width of the container */
+        white-space: nowrap;
+        /* Preserve line breaks */
+
+
+    }
+
+    #two {
+
+        display: none;
+    }
+
+    #three {
+        font-family: 'Trip Sans';
+        font-weight: 400;
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border-radius: 5%;
+        display: inline-block;
+
+
+    }
+
+    .footer-top-image img {
+
+        position: absolute;
+        right: 10%;
+        width: 100%;
+        height: 530px;
+        object-fit: cover;
+        top: 23%
+    }
+
+    /*Footer*/
+    .footer select {
+        width: 150px;
+        height: 35px;
+
+    }
+
+
 
 
 
