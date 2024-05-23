@@ -1322,6 +1322,7 @@ body {
         flex-direction: column;
         gap: 30px;
     }
+    /*explore  */
     .explore .explore__boxes {
         display: flex;
         gap: 20px;
@@ -1351,6 +1352,7 @@ body {
     .explore .explore__boximg .overlay-heart i{
         font-size: 40px;
     }
+    /* holidayaward */
     .holidayaward .holiday__box {
         display: flex;
         gap: 15px;
@@ -1381,4 +1383,210 @@ body {
         gap: 40px;
         flex-direction: column;
     }
+}
+
+@media (max-width:570px){
+    /* where and Searchbar */
+    .search-bar .search-link {
+
+        flex-wrap: wrap;
+    }
+    /* Tour-image */
+    .tour-section .tour-s1 .tour-s1-image img {
+        width: 100%;
+        height: 423px;
+        object-fit: cover;
+    }
+    /* Holiday Banner */
+    .holiday .holiday-text-s1 h2 {
+        font-family: 'Trip Sans';
+        font-weight: 500;
+        font-size: 24px;
+        color: black;
+        text-align: center;
+    }
+    /* Hotel-section */
+    .hotel h3 {
+        font-family: 'Trip Sans';
+        font-weight: bold;
+        font-size: 45px;
+        color: white;
+        text-transform: capitalize;
+        line-height: 45px;
+        padding-right: 20px;
+    }
+    /* asian */
+    .asian h3 {
+        font-family: 'Trip Sans';
+        font-weight: 500;
+        font-size: 26px;
+        color: black;
+        line-height: 26px;
+        padding-top: 10px;
+    }
+    /* explore-top */
+    .exploretop .exploretop__one__two h2 {
+        font-family: 'Trip Sans';
+        font-weight: 500;
+        font-size: 24px;
+        color: black;
+        text-align: center;
+    }
+    .exploretop .exploretop__one__two h3 {
+        font-family: 'Trip Sans';
+        font-weight: 500;
+        font-size: 18px;
+        color: black;
+        padding-top: 20px;
+        text-align: center;
+    }
+    /* Holiday Banner */
+    .holiday .holiday-text-s1 h3 {
+        font-family: 'Trip Sans';
+        font-weight: 500;
+        font-size: 18px;
+        color: black;
+        padding-top: 20px;
+        text-align: center;
+    }
+    /* Holidayaward */
+    .holidayaward h3 {
+        font-family: 'Trip Sans';
+        font-weight: bold;
+        font-size: 45px;
+        color: white;
+        text-transform: capitalize;
+        line-height: 45px;
+        padding-right: 50px;
+    }
+    /* Footer-top */
+    .footer__top .footer__topboxes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* Footer */
+    .footer .footer__one {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .footer .social {
+        width: 100%;
+    }
+    .footer ul br{
+        display: none;
+    }
+}
+
+@media(max-width:430px){
+    /*Navbar */
+    .navbar-inr{
+        display: none;
+    }
+    /* where and searchbar */
+    .search-bar .search-link a {
+        text-decoration: none;
+        color: black;
+        padding: 0px 0px;
+    }
+    .search-bar h2 {
+        font-family: 'Trip Sans Ultra';
+        font-weight: 900;
+        font-size: 50px;
+    }
+     /* Foreign-places */
+    .foreign .foreign-s1-img .places-card-s1 .fa-regular {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 200px;
+    }
+    .foreign .foreign-s1-img .places-card-s1 .fa-solid {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 200px;
+        color: red;
+        display: none;
+    }
+    .foreign .foreign-s1-img .places-card-s1 i{
+        font-size: 20px;
+    }
+    /* asian */
+    
+    .asian .asian__boximg .overlay-heart .fa-regular {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 200px;
+    }
+    .asian .asian__boximg .overlay-heart .fa-solid {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 200px;
+        color: red;
+        display: none;
+    }
+    .asian .asian__boximg .overlay-heart i{
+        font-size: 20px;
+    }
+    /* explore */
+    .explore .explore__boximg .overlay-heart .fa-regular {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 200px;
+    }
+    .explore .explore__boximg .overlay-heart .fa-solid {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 200px;
+        color: red;
+        display: none;
+    }
+    .explore .explore__boximg .overlay-heart i{
+        font-size: 20px;
+    }
+    /* holidayaward */
+    .holidayaward h3 {
+        font-family: 'Trip Sans';
+        font-weight: bold;
+        font-size: 40px;
+        color: white;
+        text-transform: capitalize;
+        line-height: 40px;
+        padding-right: 50px;
+    }
+     /* Hotel-section */
+    .hotel h3 {
+        font-family: 'Trip Sans';
+        font-weight: bold;
+        font-size: 40px;
+        color: white;
+        text-transform: capitalize;
+        line-height: 40px;
+        padding-right: 20px;
+    }
+
 }
